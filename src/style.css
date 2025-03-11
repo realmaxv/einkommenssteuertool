@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 255, 0.348);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 20px;
+  width: 40vw;
+  padding: 50px;
+  box-shadow: 0px 0px 50px #c4c4c4;
+  margin: 10% auto;
+
+}
+
+form h2 {
+  margin-bottom: 15px;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  height: 30px;
+  min-width: 80%;
+  background-color: rgba(247, 247, 250, 0.424);
+  border-radius: 2px;
+  box-shadow: inset 0px 0.6px 0.7px black;
+  text-align: center;
+}
