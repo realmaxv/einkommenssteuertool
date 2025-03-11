@@ -1,1 +1,3 @@
 # einkommenssteuertool
+
+![""](images/aufgabe.png)
