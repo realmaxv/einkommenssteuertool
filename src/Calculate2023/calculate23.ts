@@ -1,7 +1,6 @@
 export function calculateZvE2023(userInputZvE: number): string {
   let y, z: number;
   let est: number = 0;
-
   if (userInputZvE <= 10908) {
     return `Sie müssen keine Einkommenssteuer zahlen, da der Grundfreibetrag zu hoch ist.`;
   } else if (userInputZvE > 10908 && userInputZvE <= 15999) {

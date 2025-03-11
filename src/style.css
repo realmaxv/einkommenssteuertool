@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 255, 0.348);
@@ -24,7 +24,7 @@ form {
 
 }
 
-form h2 {
+.form h2 {
   margin-bottom: 15px;
 }
 
@@ -40,4 +40,13 @@ select {
   border-radius: 2px;
   box-shadow: inset 0px 0.6px 0.7px black;
   text-align: center;
+}
+
+#output {
+  height: 160px;
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  line-height: 30px;
 }
