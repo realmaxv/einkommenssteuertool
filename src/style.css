@@ -49,4 +49,7 @@ select {
   text-align: center;
   padding: 20px;
   line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -7,23 +7,6 @@ const userInput = document.getElementById("user-input") as HTMLInputElement;
 const output = document.getElementById("output") as HTMLDivElement;
 const selectYear = document.getElementById("year") as HTMLSelectElement;
 
-// selectYear.addEventListener("change", () => {
-//   switch (selectYear.value) {
-//     case "year23":
-//       break;
-
-//     case "year24":
-//       submitBtn.addEventListener("click", () => {
-
-//       });
-//       break;
-
-//     default:
-//       console.log("nope");
-//   }
-// });
-// let eingabe = userInput.value;
-
 submitBtn.addEventListener("click", () => {
   if (selectYear.value === "year23") {
     output.innerHTML = calculateZvE2023(Number(userInput.value));
