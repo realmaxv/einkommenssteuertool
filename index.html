@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Einkommenssteuer-Tool</title>
   </head>
   <body>
+    <form>
+      <h2>Einkommenssteuer Berechnen</h2>
+      <select
+        style="width: 100%; height: 50px"
+        name="genre"
+        id="genre"
+        aria-placeholder="Berechnungsjahr aussuchen..."
+      >
+        <option value="year23">Jahr 2023</option>
+        <option value="year24">Jahr 2024</option>
+      </select>
+
+      <label for="number" id="year"
+        >Bitte geben Sie ihr Einkommen für 2023 ein:</label
+      >
+      <input type="text" id="number" />
+
+      <p id="output"></p>
+    </form>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
